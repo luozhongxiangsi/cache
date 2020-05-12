@@ -22,7 +22,7 @@ def rename_tables(all_tables_info):
         try:
             os.rename(old_path, new_path)
         except Exception:
-            print('{}重命名失败，请重新命名。备注为{}'.format(str(a_list[0]),a_list[1]))
+            print('{}重命名失败，请重新命名。备注为{}'.format(str(a_list[0]), a_list[1]))
 
 
 if __name__ == "__main__":
